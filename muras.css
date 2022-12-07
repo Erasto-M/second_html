@@ -1,0 +1,46 @@
+
+            h1{
+                color:white ;
+                background-color: green;
+                text-align: center;
+                font-family: algerian;
+            }
+            h2{
+                color:black ;
+                background-color: rgb(174, 240, 174);
+                text-align: center;
+            }
+            h3{
+                color:rgb(82, 79, 79);
+                background-color: rgb(120, 243, 120);
+                text-align: center;
+            }
+            h4{
+                color:rgb(48, 47, 47) ;
+                background-color: rgb(130, 180, 130);
+                text-align: center;
+            }
+            p{
+                color: blue;
+                background-color: white;
+                align-content: center;
+            }
+            table{
+                color: white;
+                align-content: center;
+                background-color: rgb(73, 70, 70);
+                column-gap: 0in;
+            }
+            form{
+                color: rgb(76, 76, 209);
+                background-color: white;
+            }
+            html{
+                background-color: green;
+            }
+            body{ 
+                background-color: rgb(149, 229, 229);
+                background-repeat: no-repeat;
+                background-image: url(/home/erahacker/Documents/prado.jpeg);
+            }
+        

@@ -4,13 +4,18 @@
         <title>Erastus Munyao</title>
         <link rel="stylesheet" href="muras.css">
         <script>
-            function myFunction()
-            
-            {
-            document.write
-            }
-            function myFunction1(){
-                document.write
+            function showDate(){
+                var today = new Date();
+                var hour = today.getHours();
+                if(hour<12){
+                    document.getElementById("demo").innerHTML = "GOOD MORNING";
+                }
+                else if(hour<16){
+                   document.getElementById("demo").innerHTML = "GOOD AFTERNOON";
+                }
+                else {
+                    document.getElementById("demo").innerHTML = "Good EVENING";
+                }
             }
             </script>
     </head>
@@ -226,7 +231,9 @@
             </dl>
             </li>
         </OL>
-        <br>
+        <br>etElementById("demo").innerHTML = "Good EVENING";
+    }
+}
         <br>
         <h1><u>HTML FORMS</u></h1>
         <form>
@@ -391,12 +398,8 @@
                 <button type="button" onclick="document.getElementById('demo').style.fontSize='40px'">
                 Click Me!
                </button>
-               <h2>Demo JavaScript in Head</h2>
-
-                <p id="demo1"> This is A Paragraph</p>
-                <button type="button" onclick="myFunction()">click me!</button>
-                <br>
-                <button type="button" onclick="myFunction1()">click me!</button>
+               <h2>JavaScript Date</h2>
+                <button type="button" onclick='showDate()'>click me!</button>
             </form>
          <div>
          </div>
